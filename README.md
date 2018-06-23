@@ -2,7 +2,7 @@
 
 Classic tournament rules checkers built with create-react-app.
 
-![] (screenshot.png)
+![](screenshot.png)
 
 ## Built With
 
