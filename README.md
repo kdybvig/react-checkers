@@ -2,6 +2,8 @@
 
 Classic tournament rules checkers built with create-react-app.
 
+![] (screenshot.png)
+
 ## Built With
 
 * [Create React App](https://github.com/facebookincubator/create-react-app)
