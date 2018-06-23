@@ -1,6 +1,6 @@
 # React Checkers
 
-Two Player React-Checkers Game
+Classic tournament rules checkers built with create-react-app.
 
 ## Built With
 
@@ -9,6 +9,14 @@ Two Player React-Checkers Game
 * [Lodash](https://lodash.com//)
 
 
-## License
+## Features
+* Red and white checkers on a board with green and off-white squares.
+* Players move pieces by clicking and dragging
+* Red always moves first
+* Draw is automatically declared after 40 moves pass with neither player advancing or capturing
+* After the game ends, the screen is dimmed and a play again button appears
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## Future Updates
+* Add computer AI
+* Add start screen for players to select one or two players and computer difficulty
+* Add a restart button and a declare draw button
