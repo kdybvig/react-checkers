@@ -4,13 +4,13 @@ Classic tournament rules checkers built with create-react-app.
 
 ## Built With
 
-* [Create React App](https://github.com/facebookincubator/create-react-app).
+* [Create React App](https://github.com/facebookincubator/create-react-app)
 * [React DnD](http://react-dnd.github.io/react-dnd/)
 * [Lodash](https://lodash.com//)
 
 
 ## Features
-* Red and white checkers on a board with green and off-white squares.
+* Red and white checkers on a board with green and off-white squares
 * Players move pieces by clicking and dragging
 * Red always moves first
 * Draw is automatically declared after 40 moves pass with neither player advancing or capturing
