@@ -26,7 +26,8 @@ class Board extends Component {
   }
 
   startNewGame = () => {
-    const initialCheckers = [];
+    this.moveCount = 0;
+    const initialCheckers = {};
     //create the white checkers
     for (let row = 0; row < 3; row++) {
       //place checkers in odd columns for even rows, even columns for odd rows
@@ -59,11 +60,13 @@ class Board extends Component {
           key: key}
       }
     }
-    this.setState({checkers: initialCheckers,
-                   //red always goes first
-                   curPlayer: 'red',
-                   mustJumpFrom: [],
-                   gameOver: false})
+    this.setState({
+      checkers: initialCheckers,
+      //red always goes first
+      curPlayer: 'red',
+      mustJumpFrom: [],
+      gameOver: false
+    })
   }
 
   componentDidUpdate() {

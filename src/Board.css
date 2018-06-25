@@ -30,8 +30,8 @@ html {
 
 .playAgain {
   position: absolute;
-  top: 296px;
-  left: 242px;
+  top: 324px;
+  margin: 0px calc(50% - 100px);
   font-size: 32px;
   font-family: sans-serif;
   font-weight: bold;
@@ -177,8 +177,8 @@ html {
     }
 
     .playAgain {
-      top: 196px;
-      left: 165px;
+      top: 210px;
+      margin: 0px calc(50% - 65px);
       font-size: 20px;
       padding: 8px;
       border: 3px outset #333;
